@@ -56,7 +56,7 @@ namespace _03._Flowers
 
             Console.WriteLine($"{finalPrice+2:f2}");
 
-            // пререши цялата задача от до БЕЗ да използваш дебъгер! 
+
 
         }
     }
