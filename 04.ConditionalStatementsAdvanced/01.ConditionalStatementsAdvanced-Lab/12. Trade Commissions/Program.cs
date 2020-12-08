@@ -6,14 +6,11 @@ namespace _12._Trade_Commissions
     {
         static void Main(string[] args)
         {
-            // 1. четем име на град и обем продажби
+            
             string city = Console.ReadLine();
             double sales = double.Parse(Console.ReadLine());
             double percentage = 0;
-         
-            //изключваме всички градове, които не са от 3-те
-            //Едно от решенията е, да се обедини проверката за валидност на данните, с тази за изчисляване на комисионната
-            //Валидацията трябва да е първа:
+
             if (city != "Sofia" && city != "Plovdiv" && city != "Varna" || sales < 0)
             {
                 Console.WriteLine("error");

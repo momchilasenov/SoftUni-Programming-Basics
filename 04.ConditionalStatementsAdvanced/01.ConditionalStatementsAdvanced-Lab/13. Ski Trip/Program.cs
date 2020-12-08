@@ -7,14 +7,13 @@ namespace _13._Ski_Trip
     {
         static void Main(string[] args)
         {
-            // 1. входни данни
             int days = int.Parse(Console.ReadLine());
             string room = Console.ReadLine();
             string review = Console.ReadLine();
             
             double price = 0;
             double discount = 0;
-            // 2. определяме price и discount                
+              
             if (room == "room for one person")
             {
                 price = 18.00;
@@ -54,12 +53,10 @@ namespace _13._Ski_Trip
                 }
             }
 
-            // 3. изчисляване на цената 
             double total = price * (days - 1);
             // 4. приспадане на намаление от цената
             total -= total * discount;
 
-            // 5. позитивна или негативна оценка
             if (review == "positive")
             {
                 total += total * 0.25;
@@ -68,7 +65,6 @@ namespace _13._Ski_Trip
             {
                 total -= total * 0.1;
             }
-            // 6. принтираме
 
             Console.WriteLine($"{total:f2}");
 

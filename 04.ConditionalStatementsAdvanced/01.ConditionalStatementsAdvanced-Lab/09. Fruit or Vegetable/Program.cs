@@ -29,7 +29,7 @@ namespace _09._Fruit_or_Vegetable
                     break;
             }
 
-            // solving it with || logical operator
+            // Solution with || logical operator
             //string thing = Console.ReadLine();
             //if (thing == "banana" || thing == "kiwi" || thing == "apple" || thing == "lemon" || thing == "grapes" || thing == "cherry")
             //{
