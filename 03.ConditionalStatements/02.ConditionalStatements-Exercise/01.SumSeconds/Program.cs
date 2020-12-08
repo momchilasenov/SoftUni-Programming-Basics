@@ -29,7 +29,7 @@ namespace _01.SumSeconds
                 Console.WriteLine($"{timeInMinutes}:{timeInSeconds}");
             }
 
-            // Втори и по-умен начин за решение
+            // Втори начин за решение
             int totaltime = 0;
             totaltime += int.Parse(Console.ReadLine());
             totaltime += int.Parse(Console.ReadLine());

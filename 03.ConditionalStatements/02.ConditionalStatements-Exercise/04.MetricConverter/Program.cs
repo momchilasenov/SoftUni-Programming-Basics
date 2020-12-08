@@ -6,7 +6,7 @@ namespace _04.MetricConverter
     {
         static void Main(string[] args)
         {
-            //// A better solution to the same problem
+            //// First Solution
             ////1. input data
             //double numberToConvert = double.Parse(Console.ReadLine());
             //string inputUnitOfMeasure = Console.ReadLine();
@@ -41,7 +41,7 @@ namespace _04.MetricConverter
             //Console.WriteLine($"{numberToConvert:f3}");
 
 
-            ////The slow and boring solution to the problem
+            ////Second Solution
             ////1. input data
             //double numberToConvert = double.Parse(Console.ReadLine());
             //string inputUnitOfMeasure = Console.ReadLine();
