@@ -7,41 +7,7 @@ namespace _08._Graduation_pt._2
     {
         static void Main(string[] args)
         {
-            //string name = Console.ReadLine();
-            //double grade = 0;
-            //int gradeCounter = 1;
-            //double sumGrades = 0;
-            //int failed = 0;
-            //bool studentExcluded = false;
-
-            //while (gradeCounter <= 12)
-            //{
-            //    if (failed == 2)
-            //    {
-            //        Console.WriteLine($"{name} has been excluded at {gradeCounter} grade");
-            //        studentExcluded = true;
-            //        break;
-            //    }
-
-            //    grade = double.Parse(Console.ReadLine());
-
-            //    if (grade < 4.00)
-            //    {
-            //        failed++;
-            //        continue;
-            //    }
-
-            //    sumGrades += grade;
-            //    gradeCounter++;
-            //}
-            //if (!studentExcluded)
-            //{
-            //    double averageGrade = sumGrades / 12;
-            //    Console.WriteLine($"{name} graduated. Average grade: {averageGrade:f2}");
-            //}
-
-
-            //САМОСТОЯТЕЛНО РЕШЕНИЕ
+           
             string name = Console.ReadLine();
             double grade = 0;
             int yearCount = 1;
@@ -63,7 +29,7 @@ namespace _08._Graduation_pt._2
                 if (grade < 4.00)
                 {
                     failedYears++;
-                    continue; //пропускаме добавянето на оценка и година!
+                    continue; 
                                         
                 }
 
