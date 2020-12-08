@@ -22,8 +22,8 @@ namespace _11._Clever_Lily
                 if (i % 2 == 0)
                 {
                     money = money + 10;
-                    totalMoneySaved += money; //вземаш всеки предишен рожден ден и го записваш в totalMoneySaved и след това добавяш сумата от следващия рожден ден
-                    moneyStolen += 1; //или можеш да кажеш totalMoneySaved-- за да извадиш 1лв за брат ѝ
+                    totalMoneySaved += money; 
+                    moneyStolen += 1; 
                 }
                 else
                 {

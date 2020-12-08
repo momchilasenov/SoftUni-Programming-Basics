@@ -32,7 +32,7 @@ namespace _09._Left_and_Right_Sum
             //}
 
 
-            //THE BETTER SOLUTION
+            //Smarter solution
             int n = int.Parse(Console.ReadLine());
             int leftSum = 0;
             int rightSum = 0;

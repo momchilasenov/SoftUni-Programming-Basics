@@ -8,19 +8,19 @@ namespace _08._Number_sequence
         {
             int n = int.Parse(Console.ReadLine());
 
-            int minNumber = int.MaxValue; //казваш че мин числото ще ти е = +2млрд....(много голямо число)
-            int maxNumber = int.MinValue; // макс числото ще ти е = -2млрд (много малко число)
-            // задаваш такива стойности за да си сигурен, че ще влезе в проверката 
+            int minNumber = int.MaxValue; 
+            int maxNumber = int.MinValue; 
+            
             for (int i = 0; i < n; i++)
             {
                 int inputNumber = int.Parse(Console.ReadLine());
 
-                if (maxNumber < inputNumber) // ако влезе в този if ще получиш макс
+                if (maxNumber < inputNumber) 
                 {
                     maxNumber = inputNumber;
                 }
 
-                if (minNumber > inputNumber) //имаш ли по-малко число пропуска да влезе в макс-а
+                if (minNumber > inputNumber) 
                 {
                     minNumber = inputNumber;
                 }

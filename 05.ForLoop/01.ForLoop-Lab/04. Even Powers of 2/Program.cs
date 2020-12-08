@@ -7,10 +7,6 @@ namespace _04._Even_Powers_of_2
         static void Main(string[] args)
         {
 
-            // потребителят въвежда число
-            // печатаме докато четните степени са <= въведеното число
-            // повтаряме 
-
             //1-ВО РЕШЕНИЕ
             //int n = int.Parse(Console.ReadLine());
 

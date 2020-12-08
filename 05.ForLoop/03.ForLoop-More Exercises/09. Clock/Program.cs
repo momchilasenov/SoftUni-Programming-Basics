@@ -1,12 +1,19 @@
 ﻿using System;
 
-namespace _09._Clock
+namespace Practice
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            for (int hour = 0; hour <= 23; hour++) 
+            {
+                for (int minutes = 0; minutes <= 59; minutes++)
+                {
+                    Console.WriteLine($"{hour} : {minutes}");
+                }
+            }
         }
     }
 }

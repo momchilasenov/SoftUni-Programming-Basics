@@ -14,7 +14,7 @@ namespace _10._Odd_Even_Sum
             {
                 int number = int.Parse(Console.ReadLine());
 
-                if (i % 2 == 0) //проверява дали стъпката е четна или нечетна
+                if (i % 2 == 0) 
                 {
                     evenSum += number;
                 }

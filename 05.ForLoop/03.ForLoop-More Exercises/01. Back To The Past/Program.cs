@@ -24,7 +24,7 @@ namespace _01._Back_To_The_Past
                 {
                     oddYearMoney += 12000 + (50 * currentAge);
                 }
-                currentAge ++; //увеличаваш годините с 1 след всеки цикъл-така като влезе в else през 1801 ще е на 19
+                currentAge ++; 
             }
 
             double totalMoneyToLive = evenYearMoney + oddYearMoney;
