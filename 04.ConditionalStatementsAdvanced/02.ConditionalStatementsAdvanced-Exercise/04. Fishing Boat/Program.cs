@@ -7,12 +7,14 @@ namespace _04._Fishing_Boat
         static void Main(string[] args)
         {
             //1. прочитаме бюджет сезон и брой рибари
+
             int budget = int.Parse(Console.ReadLine());
             string season = Console.ReadLine();
             int fishermen = int.Parse(Console.ReadLine());
 
             double price = 0;
             double discount = 0;
+
             //2. IF (сезон) - определяме цена 
             if (season == "Spring")
             {
@@ -26,6 +28,7 @@ namespace _04._Fishing_Boat
             {
                 price = 2600;
             }
+
             // 3. изчисляваме отстъпката според броя рибари
             if (fishermen <= 6)
             {
@@ -42,6 +45,7 @@ namespace _04._Fishing_Boat
 
             //4. прибавяме отстъпката към цената за лодката
             double total = price * discount;
+
             //5. допълнителна отстъпка за четен брой рибари освен есен 
             bool additionalDiscount = fishermen % 2 == 0 && season != "Autumn";
 
@@ -49,6 +53,7 @@ namespace _04._Fishing_Boat
             {
                 total *= 0.95;
             }
+
             //6. output
 
             if (budget >= total)

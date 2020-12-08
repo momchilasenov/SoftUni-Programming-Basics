@@ -23,10 +23,9 @@ namespace New_house_2
             {
                 if (numberOfFlowers > 80)
                 {
-                    totalPrice -= numberOfFlowers * rosesPrice * 0.1; //тук смята отстъпката като дава отрицателен резултат
+                    totalPrice -= numberOfFlowers * rosesPrice * 0.1; 
                 }
-                totalPrice += numberOfFlowers * rosesPrice; //тук ако е влязъл в IF отстъпката ще има някаква стойност и просто
-                                                            //след това тази отстъпка я изважда (тя е с - знак) от същата променлива (с един куршум...
+                totalPrice += numberOfFlowers * rosesPrice; 
             }
             else if (flowers == "Dahlias")
             {

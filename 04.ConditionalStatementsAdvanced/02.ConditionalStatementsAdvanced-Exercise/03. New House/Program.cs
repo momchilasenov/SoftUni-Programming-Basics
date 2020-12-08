@@ -9,7 +9,6 @@ namespace _03._New_House
         static void Main(string[] args)
         {
 
-            Моето Решение
             string flower = Console.ReadLine();
             int numberOfFlowers = int.Parse(Console.ReadLine());
             int budget = int.Parse(Console.ReadLine());
