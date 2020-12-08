@@ -6,6 +6,7 @@ namespace _06._Cake
     {
         static void Main(string[] args)
         {
+	    //Algorithm
             //програмата се изпълнява докато парчетата не свършат
             // или до получаване на команда stop (стринг) 
             // хората вземат парчета с размер 1*1 
@@ -28,13 +29,13 @@ namespace _06._Cake
                 totalPieces += pieces;
                 cakeLeft -= pieces; //100 - 4
 
-                //провери дали тортата не е свършила
+               
                 if (cakeLeft <= 0)
                 {
                     Console.WriteLine($"No more cake left! You need {totalPieces - cakeArea} pieces more.");
                     break;
                 }
-                //ако не е свършила значи има още торта / още парчета могат да се вземат
+                
                 input = Console.ReadLine();
 
             }

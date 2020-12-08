@@ -30,6 +30,9 @@ namespace _05._Account_Balance
             //    Console.WriteLine($"Total: {sum:f2}");
             //}
             //---------------------------------------------
+
+	    //Additional Solution
+
             string input = Console.ReadLine();
             double sum = 0;
 
