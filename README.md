@@ -1,2 +1,2 @@
 # SoftUni-Programming-Basics
-All Course Assignments with Solutions | Software University 
+Software University | All course assignments with solutions | CSharp
